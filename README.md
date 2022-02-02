@@ -14,6 +14,10 @@ O site do GeoSampa é um bem público e possui limite de banda para download afi
 
 AS URLs foram geradas a partir do arquivo de articulalção de imagens de 2017, classificados pelo SCM (https://github.com/geoinfo-smdu/SCM). De posse das URLs os arquivos foram baixados de forma automatizada utilizando Python com a biblioteca Selenio que controla uma instância do Google Chrome aberta. Esse  processo teve que ser realizado pois os links acionam JavaScript no Browser para permitir o download. Os arquivos levaram cerca de 16 horas para serem baixados e então foram validados com o arquivo de articulação de imagens. Dessa forma, os poucos downloads que falharam puderam ser baixados manualmente para completar o conjunto de arquivos. 
 
-Os arquivos então foram descomprimidos, validados novamente pelo arquivo de articulação de imagens e disponibilizados aqui na pasta `RGB-2017`
+Os arquivos então foram descomprimidos, validados novamente pelo arquivo de articulação de imagens na pasta `RGB-2017`. Como não foi possível commitar todos os arquivos aqui no repositório, os arquivos foram zipados em 20 volumes e disponibilizados em um DataSet do Kaggle disponível em https://www.kaggle.com/andasampa/ortofotos-2017-RGB
 
 O método está disponibilizado no Jupyter Notebook aqui no repositório intitulado `Download de arquivos de imagens.ipynb` e o script de download no arquivo `download-imagens.py`
+
+## Resultados
+
+Os resultados, ou seja, os arquivos de imagens RGB de 2017 baixados do GeoSampa podem então ser acessados pelo DataSet do Kaggle (https://www.kaggle.com/andasampa/ortofotos-2017-RGB)
