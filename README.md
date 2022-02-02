@@ -20,4 +20,4 @@ O método está disponibilizado no Jupyter Notebook aqui no repositório intitul
 
 ## Resultados
 
-Os resultados, ou seja, os arquivos de imagens RGB de 2017 baixados do GeoSampa podem então ser acessados pelo DataSet do Kaggle (https://www.kaggle.com/andasampa/ortofotos-2017-RGB)
+Os resultados, ou seja, os arquivos de imagens RGB de 2017 baixados do GeoSampa podem então ser acessados pelo DataSet do Kaggle (https://www.kaggle.com/andasampa/ortofotos-2017-RGB). Eles estão organizados pelo SCM (https://github.com/geoinfo-smdu/SCM) com os 3 primeiros dígitos, que significa uma escala de 1:25000. Dessa forma é possível baixar apenas porções específicas da cidade conforme a necessidade.
